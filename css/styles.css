@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Merriweather:wght@300&family=Montserrat:wght@100;400;900&family=Poppins:ital,wght@1,200;1,400&family=Raleway:wght@300&family=Roboto:wght@300&family=Sacramento&family=Ubuntu&display=swap');
+
+body{
+    font-family: "montserrat";
+}
+#title{
+    background-color: #ff4c68;
+}
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    
+}
+
+.container-fluid{
+    padding-top: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 7%;
+
+}
+.navbar-brand{
+    font-family:"Ubuntu" ;
+    font-size: 2.5rem;
+    font-weight: bold;
+   
+}
+.navbar{
+    padding-bottom: 4.5rem;
+
+}
+.nav-item{
+    padding: 0 10%;
+}
+.nav-link{
+    font-size: 1.5rem;
+    font-family: "Montserrat-light";
+}
+.dbtn{
+    margin: 5% 5% 5% 0; 
+}
+.timage{
+    width: 25%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+#features{
+    padding: 7% 15% 7% 15%;
+    text-align: center;
+    position: relative;
+    background-color: white;
+    
+}
+#feature h3{
+    font-weight: 700;
+    font-size: 150%;
+    text-align: center;
+    
+
+}
+#feature p{
+    text-align: center;
+    color: grey;
+}
+.fa{
+   
+    color: #ef817e;
+    margin-bottom: 5%;
+    
+}
+.apple{
+    color: white !important;
+}
+.fa:hover{
+    color: #ff4c68;
+}
+#testimonials{
+   
+    text-align: center;
+    color: white;
+    
+
+    background-color: #ef817e;
+}
+h2{
+    font-family: "Montserrat-bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+    background-color: white;
+}
+#press{
+    background-color: #ef817e;
+    text-align: center;
+    padding: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+
+    padding: 7% 10%;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+
+}
+.pricing_col{
+    padding: 3% 5%;
+
+}
+@media (max-width: 1020px ){
+    #title{
+        text-align: center;
+    }
+    .timage{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+        
+
+    }
+    
+}
+#cta{
+    background-color: #ff4c68;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 900;
+    padding: 10%;
+    text-align: center;
+
+}
+#cta h3{
+    font-size: 3rem;
+    padding-bottom: 5%;
+}
+.apple2{
+    color: black;
+}
+#footer{
+    padding :7% 15%;
+    text-align: center; 
+}
+#footer .fa{
+    padding-right: 1%;
+    text-align: center;
+    color: black;
+}
