@@ -1,2 +1,2 @@
 # tindog
-This Website is for dog maching website .
+This Website is for dog maching app advertiser 
